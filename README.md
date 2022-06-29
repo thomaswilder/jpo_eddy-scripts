@@ -12,7 +12,7 @@ The following files are intended to allow anyone to replicate the data used in h
 
 ## Energety budget scripts
 
-The following scripts use a 16 day time-mean, which is somewhat inherently built in, though modifications to this time can be made but require some fiddling about. The choice of time-mean needs to ensure a full rotation of the wind vector has taken place, e.g. 16 days = 5 wind rotations. Each script also includes the option to choose a domain integral or horizontal profile.
+The following scripts use a 16 day time-mean, which is somewhat inherently built in, though modifications to this time can be made but require some fiddling about. The choice of time-mean needs to ensure a full rotation of the wind vector has taken place, e.g. 16 days = 5 wind rotations. Each script also includes the option to choose a domain integral or horizontal profile. Depending on horizontal resolution chosen, the scripts can either be run locally or on a hpc.
 
 - eddy_energy_mean.m - Calculates mean eddy energy terms.
 
