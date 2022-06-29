@@ -8,8 +8,12 @@ The following files are intended to allow anyone to replicate the data used in h
 
 - geostrophic_vels.m - Calculates horizontal velocities in thermal wind balance using sea surface height and temperature.
 
-- build_vertical_grid_kds.py - Generates vertical grid using Python and written by Stewart https://github.com/kialstewart/vertical_grid_for_ocean_models
+- build_vertical_grid_kds.py - Generates vertical grid using Python including parameters chosen for this experiment. Written by Stewart https://github.com/kialstewart/vertical_grid_for_ocean_models
 
 ## Energety budget scripts
 
-- 
+The following scripts use a 16 day time-mean, which is somewhat inherently built in, though modifications to this time can be made but require some fiddling about. The choice of time-mean needs to ensure a full rotation of the wind vector has taken place, e.g. 16 days = 5 wind rotations. Each script also includes the option to choose a domain integral or horizontal profile.
+
+- eddy_energy_mean.m - Calculates mean eddy energy terms.
+
+- eddy_energy_turb.m - Calculates turbulent eddy energy terms. 
