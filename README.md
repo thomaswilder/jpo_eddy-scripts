@@ -16,7 +16,7 @@ The following scripts use a 16 day time-mean, which is somewhat inherently built
 
 - eddy_energy_mean.m - Script that calculates mean eddy energy terms based on MITgcm input data.
 
-- eddy_energy_turb.m - Script that calculates turbulent eddy energy terms. Can be split into seperate jobs e.g. day 31 to day 150, then day 151 to 300 and so on. 
+- eddy_energy_turb.m - Script that calculates turbulent eddy energy terms. Can be split into separate jobs e.g. day 31 to day 150, then day 151 to 300 and so on. 
 
 
 ## General use functions
