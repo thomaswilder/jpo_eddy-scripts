@@ -244,7 +244,7 @@ for l = 1:length(n)
     rho_mean = mean(rho_mid_mean,4);
     rho_dev_mean = mean(rho_dev_mid_mean,4);
 
-    % put vel means and fluctuations at centre of grid cell
+    % put vel means at centre of grid cell
     val_u_mean = zeros(nx,ny);
     val_v_mean = zeros(nx,ny);
     for k = 1:size(u,3)
