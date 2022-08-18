@@ -127,3 +127,4 @@ fid=fopen('data/vvel.bin','w',ieee); fwrite(fid,v,accuracy); fclose(fid);
 fid=fopen('data/Temp.bin','w',ieee); fwrite(fid,T,accuracy); fclose(fid);
 fid=fopen('data/Temp-bg.bin','w',ieee); fwrite(fid,T_z_b,accuracy); fclose(fid);
 
+fid=fopen('data/Z.bin','w',ieee); fwrite(fid,delta_z,accuracy); fclose(fid);
