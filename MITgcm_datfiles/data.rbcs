@@ -1,0 +1,15 @@
+# RBCS package parameters:
+ &RBCS_PARM01
+   tauRelaxT=86400.,
+#   tauRelaxU=86400.,
+#   tauRelaxV=86400.,
+   relaxTFile='Temp.bin',
+#   relaxUFile='uvel.bin',
+#   relaxVFile='vvel.bin',
+   relaxMaskFile='sponge.bin',
+   useRBCtemp=.TRUE.,
+#   useRBCuVel=.TRUE.,
+#   useRBCvVel=.TURE.,
+   rbcsForcingPeriod=0.,
+   rbcsForcingCycle=0.,
+ &

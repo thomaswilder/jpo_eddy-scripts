@@ -1,0 +1,33 @@
+# *********************
+# External Forcing Data
+# *********************
+
+ &EXF_NML_01
+ exf_iprec         = 64,
+ exf_yftype        = 'RL',
+ useExfCheckRange  = .FALSE.,
+ windstressmax     = 100.,
+ repeatPeriod      = 230400.0,
+ useAtmWind	   = .TRUE.,
+ useRelativeWind   = .TRUE.,
+ &
+
+ &EXF_NML_02
+# 
+ uwindstartdate1   = 20120326,
+ uwindstartdate2   = 0,
+ uwindperiod       = 3600.0,
+ uwindfile         = 'uwind.bin',
+
+ vwindstartdate1   = 20120326,
+ vwindstartdate2   = 0,
+ vwindperiod       = 3600.0,
+ vwindfile 	   = 'vwind.bin',
+#
+ &
+
+ &EXF_NML_03
+ &
+
+ &EXF_NML_04
+ &
