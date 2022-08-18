@@ -2,6 +2,8 @@
 
 The following files are intended to allow anyone to replicate the data used in https://doi.org/10.1175/JPO-D-22-0044.1 entitled 'The Response of a Baroclinic Anticyclonic Eddy to Relative Wind Stress Forcing'. The scripts are mostly written in MATLAB, except the vertical grid script written by Stewart and detailed in Stewart et al (2017). The energy scripts assumes the model data is on an Arakawa C-grid such as the MITgcm. 
 
+If anything isn't working, do get in touch. I am happy to help.
+
 ## Initialisation scripts/functions
 
 - init_mitgcm.m - Initialisation data script for baroclinic eddy. Requires ocean_vertical_grid.nc and geostrophic_vels.m
@@ -24,3 +26,9 @@ The following scripts use a 16 day time-mean, which is somewhat inherently built
 - geostrophic_uv.m - Similar to geostrophic_vels.m, but puts values at corner of grid cells since MITgcm output tracers at grid box centre.
 
 - dvald.m - Calculates first x, y, and z derivative.
+
+
+## MITgcm data files
+Folder 'MITgcm_datfiles' contains the namelist and CPP header files that were used for this experiment. File 'job.slurm' is an example slurm script. Your system may use bash so this will need changing.
+
+
