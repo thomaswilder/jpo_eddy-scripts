@@ -29,6 +29,6 @@ The following scripts use a 16 day time-mean, which is somewhat inherently built
 
 
 ## MITgcm data files
-Folder 'MITgcm_datfiles' contains the namelist and CPP header files that were used for this experiment. File 'job.slurm' is an example slurm script. Your system may use bash so this will need changing.
+Folder 'MITgcm_datfiles' contains the namelist and CPP header files that were used for this experiment. File 'job.slurm' is an example slurm script. 
 
 
